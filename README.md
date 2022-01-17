@@ -19,7 +19,7 @@ Divulgar informações sobre energias renováveis para conscientizar a populaç�
 ## ◻ Descrição do software planejado para solucionar o problema
 Plataforma para informar sobre os benefícios das energias renováveis, cadastro de voluntários e doadores em potencial, compartilhamentos e divulgações em redes sociais.
 
-## ◻ Nome do projeto
+## ◻ Nome do Projeto
 Ambar → é uma resina fossilizada proveniente de algumas árvores e que faz referência a palavra grega Eléktron, que deu origem à palavra eletricidade. Os gregos antigos perceberam que, ao atritar o âmbar na pele de animais, esse material adquire a propriedade de atração de pequenos corpos, como penas, tecidos etc. A partir daí os fenômenos de origem elétrica começaram a ser estudados.
 
 ------------------------
