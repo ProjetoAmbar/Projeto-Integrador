@@ -2,7 +2,7 @@
 
 # Projeto do Bloco II do Bootcamp da Generation Brasil
   
-## ◻ O Problema Social:
+## ◻ O Problema Social
 
  Baixa democratização das energias renováveis no Brasil.  
   
