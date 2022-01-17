@@ -1,6 +1,6 @@
-# Projeto Integrador - Grupo 04 - ODS #7: Energias Renováveis
+# Projeto Integrador - Grupo 04 - ODS #7: Energias Renováveis.
 
-# Projeto do Bloco II do Bootcamp da Generation Brasil
+# Projeto do Bloco II do Bootcamp da Generation Brasil.
   
 ## ◻ O Problema Social
 
