@@ -1,35 +1,34 @@
-# Projeto Integrador - Grupo 04 - ODS #7: Energias Renováveis.
+### Olá a todes! 👋
 
-# Projeto do Bloco II do Bootcamp da Generation Brasil.
+- ⚡ Atualmente estamos trabalhando no <b>Projeto Ambar.</b>
+- 👯 Procuramos colaborar com a <b>ODS #7 - Energias Renováveis.</b>
   
-## ◻ O Problema Social
+## GitHub criado para nosso Projeto Integrador da Generation Brasil, com intuito de todos membros do grupo trabalharem como um time!
 
- Baixa democratização das energias renováveis no Brasil.  
-  
-## ◻ Qual é o impacto e as consequências na sociedade?
-  
-Menos acesso à informação, impactos ambientais negativos, acidentes causados por “gatos de luz”, riscos à saúde devido a uma grande parte da população cozinhando com combustíveis poluentes.
+## Objetivo do trabalho: Criar uma Rede Social em base na ODS #7 - Energias Renováveis
 
-## ◻ Qual foi a solução escolhida?
-Rede Social
+--------------------------------
 
-## ◻ Qual o motivo da escolha do modelo de app?
-Divulgar informações sobre energias renováveis para conscientizar a população.
-
-## ◻ Descrição do software planejado para solucionar o problema
-Plataforma para informar sobre os benefícios das energias renováveis, cadastro de voluntários e doadores em potencial, compartilhamentos e divulgações em redes sociais.
-
-## ◻ Nome do Projeto
-Ambar → é uma resina fossilizada proveniente de algumas árvores e que faz referência a palavra grega Eléktron, que deu origem à palavra eletricidade. Os gregos antigos perceberam que, ao atritar o âmbar na pele de animais, esse material adquire a propriedade de atração de pequenos corpos, como penas, tecidos etc. A partir daí os fenômenos de origem elétrica começaram a ser estudados.
-
-------------------------
-<b>Integrantes do Grupo:</b>
+## Integrantes do Grupo:
 - [Ariela Lopes](https://github.com/arieladimitria)
 - [Gabriel Marques](https://github.com/Gabriel-M-S)
 - [Gabriel Pedro Faria](https://github.com/GabrielPFaria)
 - [Juliana Silva](https://github.com/juxxnn)
 - [Paulo Silva](https://github.com/PAUL0SP)
 - [Vinicius Aislan](https://github.com/viniciusaislan)
-------------------------
-  
-<h3>🎯 Projeto em andamento...</h3>
+
+## Entre em contato com a gente 😉
+<a href = "mailto:projetoambar04@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+
+## Tarefas:
+- [x] <b>11/01/2022:</b> Definindo o escopo do projeto
+- [x] <b>17/01/2022:</b> Prototipando o Banco de dados
+
+------------------------------
+
+<h3 align="center">🎯 Projeto em andamento...</h3>
+
+<h4 align="center">
+  <a href="https://github.com/viniciusaislan">
+  <img height="120em" src="https://github-readme-stats.vercel.app/api?username=ProjetoAmbar&show_icons=true&theme=graywhite&include_all_commits=true&count_private=true"/>
+  <img height="120em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProjetoAmbar&layout=compact&langs_count=7&theme=graywhite"/> </h4>
