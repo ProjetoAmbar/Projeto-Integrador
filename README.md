@@ -23,6 +23,8 @@
 ## Tarefas:
 - [x] <b>11/01/2022:</b> Definindo o escopo do projeto
 - [x] <b>17/01/2022:</b> Prototipando o Banco de dados
+- [x] <b>21/01/2022:</b> Criando o meu projeto Spring
+- [x] <b>21/01/2022:</b> Primeiro modelo do meu projeto spring
 
 ------------------------------
 
