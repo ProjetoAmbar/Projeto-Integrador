@@ -19,6 +19,7 @@
 
 ## Entre em contato com a gente 😉
 <a href = "mailto:projetoambar04@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href = "https://github.com/ProjetoAmbar"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="blank"></a>
 
 ## Tarefas:
 - [x] <b>11/01/2022:</b> Definindo o escopo do projeto
@@ -31,6 +32,6 @@
 <h3 align="center">🎯 Projeto em andamento...</h3>
 
 <h4 align="center">
-  <a href="https://github.com/viniciusaislan">
+  <a href="https://github.com/ProjetoAmbar">
   <img height="120em" src="https://github-readme-stats.vercel.app/api?username=ProjetoAmbar&show_icons=true&theme=graywhite&include_all_commits=true&count_private=true"/>
   <img height="120em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProjetoAmbar&layout=compact&langs_count=7&theme=graywhite"/> </h4>
