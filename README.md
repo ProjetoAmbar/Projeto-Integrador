@@ -22,10 +22,11 @@
 <a href = "https://github.com/ProjetoAmbar"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="blank"></a>
 
 ## Tarefas:
-- [x] <b>11/01/2022:</b> Definindo o escopo do projeto
-- [x] <b>17/01/2022:</b> Prototipando o Banco de dados
-- [x] <b>21/01/2022:</b> Criando o meu projeto Spring
-- [x] <b>21/01/2022:</b> Primeiro modelo do meu projeto spring
+- [x] <b>#1:</b> Definindo o escopo do projeto
+- [x] <b>#2:</b> Prototipando o Banco de dados
+- [x] <b>#3:</b> Criando o meu projeto Spring
+- [x] <b>#4:</b> Primeiro modelo do meu projeto spring
+- [x] <b>#5:</b> Criando o primeiro CRUD do meu projeto Spring
 
 ------------------------------
 
