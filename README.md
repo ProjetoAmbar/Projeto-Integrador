@@ -5,7 +5,7 @@
   
 ## GitHub criado para nosso Projeto Integrador da Generation Brasil, com intuito de todos membros do grupo trabalharem como um time!
 
-## Objetivo do trabalho: Criar uma Rede Social em base na ODS #7 - Energias Renováveis
+## Objetivo do trabalho: Criar uma Rede Social em base na ODS #7 - Energias Renováveis.
 
 --------------------------------
 
