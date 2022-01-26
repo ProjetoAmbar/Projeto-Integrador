@@ -16,9 +16,9 @@ public class Temas {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 
-	@NotBlank(message = "O atributo titulo_tema é obrigatório e não pode conter espaços em branco")
-	@Size(min = 3, max = 50, message = "O atributo titulo_tema deve conter no mínimo 03 e no máximo 50 caracteres")
-	private String titulo_tema;
+	@NotBlank(message = "O atributo tituloTema é obrigatório e não pode conter espaços em branco")
+	@Size(min = 3, max = 50, message = "O atributo tituloTema deve conter no mínimo 03 e no máximo 50 caracteres")
+	private String tituloTema;
 
 	@NotBlank(message = "O atributo descrição é obrigatório e não pode conter espaços em branco")
 	@Size(min = 3, max = 255, message = "O atributo descrição deve conter no mínimo 03 e no máximo 255 caracteres")
@@ -36,12 +36,12 @@ public class Temas {
 		this.id = id;
 	}
 
-	public String getTitulo_tema() {
-		return titulo_tema;
+	public String getTituloTema() {
+		return tituloTema;
 	}
 
-	public void setTitulo_tema(String titulo_tema) {
-		this.titulo_tema = titulo_tema;
+	public void setTituloTema(String tituloTema) {
+		this.tituloTema = tituloTema;
 	}
 
 	public String getDescricao() {
