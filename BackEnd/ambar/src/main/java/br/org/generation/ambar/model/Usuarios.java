@@ -31,7 +31,7 @@ public class Usuarios {
 	private String email;
 	
 	@NotBlank(message = "Espaço senha não pode ficar em branco")
-	@Size(min = 6, max = 10, message = "O tamanho de senha deve ficar entre 6 e 10")
+	@Size(min = 6, message = "O tamanho de senha deve ficar entre 6 e 10")
 	private String senha;
 
 	@OneToMany(mappedBy = "usuarios", cascade = CascadeType.ALL)

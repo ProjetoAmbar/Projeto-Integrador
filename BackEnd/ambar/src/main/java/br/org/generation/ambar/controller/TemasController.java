@@ -30,42 +30,51 @@ public class TemasController {
 
 	@GetMapping
 	public ResponseEntity<List<Temas>> getAll() {
+		
 		return ResponseEntity.ok(temasRepository.findAll());
 
 	}
 
 	@GetMapping("/{id}")
 	public ResponseEntity<Temas> getById(@PathVariable Long id) {
-		return temasRepository.findById(id).map(resposta -> ResponseEntity.ok(resposta))
+		
+		return temasRepository.findById(id)
+				.map(resposta -> ResponseEntity.ok(resposta))
 				.orElse(ResponseEntity.notFound().build());
 	}
 
 	@GetMapping("/tituloTema/{tituloTema}")
 	public ResponseEntity<List<Temas>> getByTituloTema(@PathVariable String tituloTema) {
+		
 		return ResponseEntity.ok(temasRepository.findAllByTituloTemaContainingIgnoreCase(tituloTema));
 	}
 
 	@PostMapping
 	public ResponseEntity<Temas> postTemas(@Valid @RequestBody Temas temas) {
+		
 		return ResponseEntity.status(HttpStatus.CREATED).body(temasRepository.save(temas));
 	}
 
 	@PutMapping
 	public ResponseEntity<Temas> putTemas(@Valid @RequestBody Temas temas) {
 
-		return temasRepository.findById(temas.getId()).map(resposta -> {
-			return ResponseEntity.ok().body(temasRepository.save(temas));
-		}).orElse(ResponseEntity.notFound().build());
+		return temasRepository.findById(temas.getId())
+				.map(resposta -> {
+					return ResponseEntity.ok().body(temasRepository.save(temas));
+				})
+				.orElse(ResponseEntity.notFound().build());
 
 	}
 
 	@DeleteMapping("/{id}")
 	public ResponseEntity<?> deleteTemas(@PathVariable Long id) {
 
-		return temasRepository.findById(id).map(resposta -> {
-			temasRepository.deleteById(id);
-			return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
-		}).orElse(ResponseEntity.notFound().build());
+		return temasRepository.findById(id)
+				.map(resposta -> {
+					temasRepository.deleteById(id);
+					return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+				})
+				.orElse(ResponseEntity.notFound().build());
 	}
 
 }

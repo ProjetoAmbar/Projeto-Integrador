@@ -22,51 +22,60 @@ import br.org.generation.ambar.repository.PostagensRepository;
 
 @RestController
 @RequestMapping("/postagens")
-@CrossOrigin(origins = "*", allowedHeaders ="*")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 
 public class PostagensController {
 
 	@Autowired
 	private PostagensRepository postagensRepository;
-	
+
 	@GetMapping
 	public ResponseEntity<List<Postagens>> getAll() {
+		
 		return ResponseEntity.ok(postagensRepository.findAll());
 
 	}
 
 	@GetMapping("/{id}")
 	public ResponseEntity<Postagens> getById(@PathVariable Long id) {
-		return postagensRepository.findById(id).map(resposta -> ResponseEntity.ok(resposta))
+	
+		return postagensRepository.findById(id)
+				.map(resposta -> ResponseEntity.ok(resposta))
 				.orElse(ResponseEntity.notFound().build());
 	}
 
 	@GetMapping("/titulo/{titulo}")
 	public ResponseEntity<List<Postagens>> getByTitulo(@PathVariable String titulo) {
+		
 		return ResponseEntity.ok(postagensRepository.findAllByTituloContainingIgnoreCase(titulo));
 	}
 
 	@PostMapping
 	public ResponseEntity<Postagens> postPostagens(@Valid @RequestBody Postagens postagens) {
+		
 		return ResponseEntity.status(HttpStatus.CREATED).body(postagensRepository.save(postagens));
 	}
 
 	@PutMapping
 	public ResponseEntity<Postagens> putPostagens(@Valid @RequestBody Postagens postagens) {
-
-		return postagensRepository.findById(postagens.getId()).map(resposta -> {
-			return ResponseEntity.ok().body(postagensRepository.save(postagens));
-		}).orElse(ResponseEntity.notFound().build());
+		
+		return postagensRepository.findById(postagens.getId())
+				.map(resposta -> {
+					return ResponseEntity.ok().body(postagensRepository.save(postagens));
+				})
+				.orElse(ResponseEntity.notFound().build());
 
 	}
 
 	@DeleteMapping("/{id}")
 	public ResponseEntity<?> deletePostagens(@PathVariable Long id) {
 
-		return postagensRepository.findById(id).map(resposta -> {
-			postagensRepository.deleteById(id);
-			return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
-		}).orElse(ResponseEntity.notFound().build());
+		return postagensRepository.findById(id)
+				.map(resposta -> {
+					postagensRepository.deleteById(id);
+					return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+				})
+				.orElse(ResponseEntity.notFound().build());
 	}
-	
+
 }
