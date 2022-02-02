@@ -1,0 +1,279 @@
+{
+	"info": {
+		"_postman_id": "e6c21499-e110-474b-9bff-90ff1902d395",
+		"name": "Ambar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Temas",
+			"item": [
+				{
+					"name": "GetAllTemas",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/temas/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"temas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetByTituloTema",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/temas/tituloTema/",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"temas",
+								"tituloTema",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PostTemas",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tituloTema\": \"News\",\r\n\"descricao\": \"Notícias sobre energias renováveis\",\r\n\"hashtags\": \"#Reportagens, #Revistas\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/temas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"temas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PutTemas",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"id\": 1,\r\n\"tituloTema\": \"News\",\r\n\"descricao\": \"Notícias sobre energias renováveis\",\r\n\"hashtags\": \"#Reportagens, #Revistas\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/temas",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"temas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteTemas",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/temas/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"temas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Postagens",
+			"item": [
+				{
+					"name": "GetAllPostagens",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/postagens",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"postagens"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetByIdPostagens",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/postagens",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"postagens"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetByTitulo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/postagens/titulo",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"postagens",
+								"titulo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PostPostagens",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"titulo\": \"Energia Solar está em alta\",\r\n\"post\": \"As energias renováveis estão em alta\",\r\n\"imagens_url\": \"https://imgur.com/gallery/2wk6bbB\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/postagens/",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"postagens",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PutPostagens",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"id\": 1,\r\n\"titulo\": \"Energia Solar\",\r\n\"post\": \"As energias renováveis estão em alta\",\r\n\"imagens_url\": \"https://imgur.com/gallery/2wk6bbB\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/postagens",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"postagens"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletePostagens",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"id\": 1,\r\n\"titulo\": \"Energia Solar está em alta\",\r\n\"post\": \"As energias renováveis estão em alta\",\r\n\"imagens_url\": \"https://imgur.com/gallery/2wk6bbB\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/postagens/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"postagens",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
