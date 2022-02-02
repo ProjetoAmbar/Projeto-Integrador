@@ -9,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
@@ -28,10 +29,11 @@ public class Usuarios {
 	
 	@NotBlank(message = "Espaço email não pode ficar em branco")
 	@Size(min = 3, max = 255, message = "O tamanho de email deve ficar entre 3 e 255")
+	@Email(message = "O atributo email deve ser um email válido!")
 	private String email;
 	
 	@NotBlank(message = "Espaço senha não pode ficar em branco")
-	@Size(min = 6, message = "O tamanho de senha deve ficar entre 6 e 10")
+	@Size(min = 8, message = "O tamanho de senha deve ser o mínimo 8")
 	private String senha;
 
 	@OneToMany(mappedBy = "usuarios", cascade = CascadeType.ALL)
