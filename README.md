@@ -28,6 +28,7 @@
 - [x] <b>#4:</b> Primeiro modelo do meu projeto spring
 - [x] <b>#5:</b> Criando o primeiro CRUD do meu projeto Spring
 - [x] <b>#6:</b> Criando o segundo CRUD do meu projeto Spring
+- [ ] <b>#7:</b> Implementado o Spring Security
 
 ------------------------------
 
