@@ -29,7 +29,7 @@
 - [x] <b>#5:</b> Criando o primeiro CRUD do meu projeto Spring
 - [x] <b>#6:</b> Criando o segundo CRUD do meu projeto Spring
 - [x] <b>#7:</b> Implementado o Spring Security
-- [ ] <b>#8:</b> Documentação com Swagger e Deploy
+- [x] <b>#8:</b> Documentação com Swagger e Deploy
 
 ------------------------------
 
