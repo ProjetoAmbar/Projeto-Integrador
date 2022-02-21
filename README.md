@@ -30,6 +30,7 @@
 - [x] <b>#6:</b> Criando o segundo CRUD do meu projeto Spring
 - [x] <b>#7:</b> Implementado o Spring Security
 - [x] <b>#8:</b> Documentação com Swagger e Deploy
+- [ ] <b>#9:</b> Criação do projeto em Angular
 
 ------------------------------
 
