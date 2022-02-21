@@ -1,0 +1,19 @@
+#img-bg{
+    background-image: url('https://imgur.com/UoKTAEJ.jpg'); /*'../../assets/'*/
+
+    min-height: 460px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-color{
+    background-color: #B3D8CB !important;
+}
+
+.img-ambar{
+     width: 50px;
+     height: 50px;
+     background: url(https://i.imgur.com/OqILkvk.jpg);
+}
