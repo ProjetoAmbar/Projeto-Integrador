@@ -9,7 +9,7 @@
 
 --------------------------------
 
-## Integrantes do Grupo:
+## Integrantes do grupo:
 - [Ariela Lopes](https://github.com/arieladimitria)
 - [Gabriel Marques](https://github.com/Gabriel-M-S)
 - [Gabriel Pedro Faria](https://github.com/GabrielPFaria)
