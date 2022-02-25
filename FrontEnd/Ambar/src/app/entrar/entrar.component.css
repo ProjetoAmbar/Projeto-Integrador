@@ -42,3 +42,6 @@ body {
     font-weight: 400;
   }
   
+  button:hover{
+    background-color: green !important;
+  }
