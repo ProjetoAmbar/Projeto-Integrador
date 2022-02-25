@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { NgModule } from '@angular/core';
+
+import { AuthService } from './service/auth.service';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +9,7 @@ import { NgModule } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'Ambar';
+ constructor(
+   public auth: AuthService
+ ){}
 }
