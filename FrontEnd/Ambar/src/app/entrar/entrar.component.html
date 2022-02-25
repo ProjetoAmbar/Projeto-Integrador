@@ -7,37 +7,37 @@
         <!--/Imagem-->
 
         <!--Card-entrada-->
-        <div class="col-md-6 d-flex align-intems-center justify-content-center">
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
            
-                <div class="card text-white bg-color mt-5 mb-5"  style="width: 23rem; height: 32rem;">
+                <div class="card bg-color mt-5 mb-5"  style="width: 23rem; height: 32rem;">
 
                     <div class="card-body">
                         <!--Img-ambar-->
-                        <img class="img-ambar " src="https://i.imgur.com/OqILkvk.jpg">
+                        <img class="img-ambar " src="https://i.imgur.com/budEY5V.png">
                         <!--/Im-ambar-->
-                        <h5 class="card-title text-center mt-5">Ambar</h5>
+                        <h1 class="text-center mt-1">AMBAR</h1>
                         <!--Email-->
                         <div class="form-group">
-                            <label for="email">E-mail</label>
-                            <input class="form-control" type="text" name="email" id="email" placeholder="Seu Usuário">
+                            <label class="cadastroFonte" for="email">E-mail</label>
+                            <input [(ngModel)]="usuarioLogin.email" class="form-control" type="text" name="email" id="email" placeholder="exemplo@gmail.com">
                         </div>
                         <!--/Email-->
                         <br class="mt-1 mb-1">
                         <!--Senha-->
                         <div class="form-group">
-                            <label for="senha">Senha</label>
-                            <input class="form-control" type="password" name="senha" id="senha" placeholder="Sua Senha">
+                            <label class="cadastroFonte" for="senha">Senha</label>
+                            <input  [(ngModel)]="usuarioLogin.senha" class="form-control" type="password" name="senha" id="senha" placeholder="**********">
                         </div>
                         <!--/Senha-->
                         <br class="mt-2 mb-2">
 
                         <div class="d-flex justify-content-end">
-                            <button type="submit" class="btn btn-success" routerLink='/inicio'>
+                            <button type="submit" class="btn btn-success" (click)="entrar()">
                                 Entrar
                             </button>
                         </div>
                         <br class="mt-5">
-                        <p class="text-center mt-5 ">Não tem uma conta? <a routerLink='/cadastrar'>Cadastre-se</a></p>
+                        <p class="text-center mt-5 ">Não tem uma conta? <a routerLink='/cadastrar'><strong>Cadastre-se</strong></a></p>
 
 
                     </div>

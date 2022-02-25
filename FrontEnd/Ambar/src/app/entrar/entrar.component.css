@@ -1,19 +1,44 @@
-#img-bg{
-    background-image: url('https://imgur.com/UoKTAEJ.jpg'); /*'../../assets/'*/
+#img-bg {
+    background-image: url('https://imgur.com/UoKTAEJ.jpg');
+    /*'../../assets/'*/
 
-    min-height: 460px;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-.bg-color{
+.bg-color {
     background-color: #B3D8CB !important;
 }
 
-.img-ambar{
-     width: 50px;
-     height: 50px;
-     background: url(https://i.imgur.com/OqILkvk.jpg);
+.img-ambar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 69px;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    
+  }
+  
+  
+  h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  

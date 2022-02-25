@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilo Geral das Fontes */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  
+}
+
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.cadastroFonte {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+strong {
+  color: black;
+}
+
+
+/* Estilo Rodapé */
+
+ul.social-network {
+  list-style: none;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0;
+  padding: 5px;
+}
+
+.fa {
+  font-size: 25pt;
+  color: white;
+  padding: 10px;
+}
+
+.fa-facebook-square:hover {
+  color: navy;
+}
+
+.fa-instagram:hover {
+  color: #C13584;
+}
+
+.fa-linkedin-square:hover {
+  color: #0072b1;
+}
