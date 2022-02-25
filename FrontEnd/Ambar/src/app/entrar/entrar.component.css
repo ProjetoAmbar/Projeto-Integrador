@@ -39,7 +39,7 @@ body {
   }
   
   button:hover{
-    background-color:green !important;
+    background-color:rgb(206, 223, 206) !important;
   }
 
   .gradient{
