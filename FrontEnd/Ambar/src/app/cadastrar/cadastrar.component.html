@@ -31,27 +31,27 @@
                         <h1 class="d-flex justify-content-center mt-3">Cadastro</h1>
                     <div class="form-group pt-2">
                         <label for="nome">Nome</label>
-                        <input class="form-control" type="text" name="nome" id="usuario" placeholder="Seu nome">
+                        <input [(ngModel)]="usuarios.nome" class="form-control" type="text" name="nome" id="usuario" placeholder="Seu nome">
                     </div>
                     <div class="form-group pt-2">
                         <label for="usuario">Email</label>
-                        <input class="form-control" type="text" name="email" id="email" placeholder="Seu email">
+                        <input [(ngModel)]="usuarios.email" class="form-control" type="text" name="email" id="email" placeholder="Seu email">
                     </div>
 
                     <div class="form-group pt-2">
                         <label for="senha">Senha</label>
-                        <input class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">
+                        <input (input)="confirmSenha($event)" class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">
                     </div>
 
                     <div class="form-group pt-2">
                         <label for="confirmSenha">Confirmar senha</label>
-                        <input class="form-control" type="password" name="confirmSenha" id="confirmSenha"
+                        <input [(ngModel)]="usuarios.senha" class="form-control" type="password" name="confirmSenha" id="confirmSenha"
                             placeholder="Confirme sua senha">
                     </div>
 
                     <div class="d-flex justify-content-center">
                         <button type="submit" class="btn btn-danger m-4" routerLink="/entrar">Cancelar</button>
-                        <button type="submit" class="btn btn-success m-4">Cadastrar</button>
+                        <button type="submit" class="btn btn-success m-4" (click)="cadastrar()">Cadastrar</button>
                     </div>
                 </div>
 
