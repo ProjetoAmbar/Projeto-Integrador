@@ -6,17 +6,17 @@
 
         <!--/Imagem-->
 
-        <!--Card-entrada-->
-        <div class="col-md-6 d-flex align-items-center justify-content-center">
+         <!--Card-entrada-->
+         <div class="col-md-6 d-flex align-items-center justify-content-center">
            
-                <div class="card bg-color mt-5 mb-5"  style="width: 23rem; height: 32rem;">
+            <div class="card bg-color mt-5 mb-5"  style="width: 23rem; height: 34rem;">
 
-                    <div class="card-body">
-                        <!--Img-ambar-->
-                        <img class="img-ambar " src="https://i.imgur.com/budEY5V.png">
-                        <!--/Im-ambar-->
-                        <h1 class="text-center mt-1">AMBAR</h1>
-                        <!--Email-->
+                <div class="card-body">
+                    <!--Img-ambar-->
+                    <img class="img-ambar" src="https://i.imgur.com/budEY5V.png">
+                    <!--/Im-ambar-->
+                    <h1 class="text-center mt-1 mb-5">AMBAR</h1>
+                    <!--Email-->
                         <div class="form-group">
                             <label class="cadastroFonte" for="email">E-mail</label>
                             <input [(ngModel)]="usuarioLogin.email" class="form-control" type="text" name="email" id="email" placeholder="exemplo@gmail.com">
@@ -32,13 +32,12 @@
                         <br class="mt-2 mb-2">
 
                         <div class="d-flex justify-content-end">
-                            <button type="submit" class="btn btn-success" (click)="entrar()">
+                            <button type="submit" class="btn btn-secondary" (click)="entrar()">
                                 Entrar
                             </button>
                         </div>
                         <br class="mt-5">
-                        <p class="text-center mt-5 ">Não tem uma conta? <a routerLink='/cadastrar'><strong>Cadastre-se</strong></a></p>
-
+                        <p class="text-center mt-5 mb-3">Não tem uma conta? <a routerLink='/cadastrar'><strong>Cadastre-se</strong></a></p>
 
                     </div>
                 </div>
