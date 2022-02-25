@@ -22,15 +22,16 @@
 <a href = "https://github.com/ProjetoAmbar"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="blank"></a>
 
 ## Tarefas:
-- [x] <b>#1:</b> Definindo o escopo do projeto
-- [x] <b>#2:</b> Prototipando o Banco de dados
-- [x] <b>#3:</b> Criando o meu projeto Spring
-- [x] <b>#4:</b> Primeiro modelo do meu projeto spring
-- [x] <b>#5:</b> Criando o primeiro CRUD do meu projeto Spring
-- [x] <b>#6:</b> Criando o segundo CRUD do meu projeto Spring
-- [x] <b>#7:</b> Implementado o Spring Security
-- [x] <b>#8:</b> Documentação com Swagger e Deploy
-- [ ] <b>#9:</b> Criação do projeto em Angular
+- [x] <b>#01:</b> Definindo o escopo do projeto
+- [x] <b>#02:</b> Prototipando o Banco de dados
+- [x] <b>#03:</b> Criando o meu projeto Spring
+- [x] <b>#04:</b> Primeiro modelo do meu projeto spring
+- [x] <b>#05:</b> Criando o primeiro CRUD do meu projeto Spring
+- [x] <b>#06:</b> Criando o segundo CRUD do meu projeto Spring
+- [x] <b>#07:</b> Implementado o Spring Security
+- [x] <b>#08:</b> Documentação com Swagger e Deploy
+- [x] <b>#09:</b> Criação do projeto em Angular
+- [x] <b>#10:</b> Segurança no Angular
 
 ------------------------------
 
