@@ -9,9 +9,6 @@
 
 }
 
-.bg-color {
-    background-color: #B3D8CB !important;
-}
 
 .img-ambar {
     display: block;
@@ -43,9 +40,42 @@ body {
   }
   
   button.hov:hover{
-    background-color: red !important;
+    background-color: rgb(231, 191, 191) !important;
  } 
 
  button.hovc:hover{
-    background-color: green !important;
+    background-color:rgb(206, 223, 206) !important;
  } 
+
+  .gradient{
+   
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #4fd370, #a3d0dd, #ebdaa3, #f38c06);
+    background-size: 300% 300%;
+    animation: colors 6s ease infinite;
+
+  }
+  @keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+
+  .card-color {
+    background-color: #ffffff80;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000050;
+
+  }
