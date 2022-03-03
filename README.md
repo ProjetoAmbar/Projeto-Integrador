@@ -2,10 +2,10 @@
 
 <img src="https://github.com/ProjetoAmbar.png" alt="logo" width="200" heigth= "200" align="right">
 
-## :memo: Descrição do Projeto:
+## :memo: Descrição do projeto:
 <p>Ambar é uma rede social com intuito de divulgar informações sobre a <b>ODS #7</b> para conscientizar a população sobre os benefícios das <b>energias renováveis</b>, cadastro de voluntários e doadores em potencial para regiões carentes do Brasil, além da possibilidade de compartilhamento em outras redes sociais. Quanto mais informação, melhor!</p>
 
-## :wrench: Etapas do Desenvolvimento:
+## :wrench: Etapas do desenvolvimento:
 ### Back-end
    
 - [x] <b>#01:</b> Definindo o escopo do projeto
@@ -34,7 +34,7 @@
  <td align="center"><a href="https://github.com/viniciusaislan"><img style="border-radius: 50%;" src="https://github.com/viniciusaislan.png" width="100px;" alt="Vinicius Aislan"/><br /><sub><b>Vinicius Aislan</b></sub></a><br/></td>
 </table>
 
-## :link: Links Úteis:
+## :link: Links úteis:
 <a href = "mailto:projetoambar04@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href = "https://github.com/ProjetoAmbar"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 <a href = "https://projetoambar.herokuapp.com/"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" target="_blank"></a>
@@ -46,5 +46,3 @@
 <a href="https://github.com/ProjetoAmbar">
 <img height="120em" src="https://github-readme-stats.vercel.app/api?username=ProjetoAmbar&show_icons=true&theme=graywhite&include_all_commits=true&count_private=true"/>
 <img height="120em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProjetoAmbar&layout=compact&langs_count=7&theme=graywhite"/> </h4>
-
-<h3 align="center">🎯 Projeto em andamento...</h3>
