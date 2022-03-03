@@ -34,9 +34,11 @@
  <td align="center"><a href="https://github.com/viniciusaislan"><img style="border-radius: 50%;" src="https://github.com/viniciusaislan.png" width="100px;" alt="Vinicius Aislan"/><br /><sub><b>Vinicius Aislan</b></sub></a><br/></td>
 </table>
 
-## :email: Contato:
+## :link: Links Úteis:
 <a href = "mailto:projetoambar04@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href = "https://github.com/ProjetoAmbar"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="blank"></a>
+<a href = "https://github.com/ProjetoAmbar"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+<a href = "https://projetoambar.herokuapp.com/"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" target="_blank"></a>
+<a href = "https://www.figma.com/file/8ZC8i4FA5Usw4edcPMB3xM/Ambar?node-id=0%3A1"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" target="_blank"></a>
 
 ------------------------------
 
