@@ -1,0 +1,28 @@
+.gradient{
+    background: linear-gradient(45deg, #4fd370, #a3d0dd, #ebdaa3, #f38c06);
+    background-size: 300% 300%;
+    animation: colors 20s ease infinite;
+
+  }
+  @keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+
+  .fs{
+    font-size: 10pt;
+    padding: 10px;
+    margin: 0;
+    display: inline;
+}
+
+ 
