@@ -48,6 +48,7 @@ body {
     justify-content: center;
     height: 100vh;
     width: 100vw;
+    overflow: auto;
     background: linear-gradient(45deg, #4fd370, #a3d0dd, #ebdaa3, #f38c06);
     background-size: 300% 300%;
     animation: colors 6s ease infinite;
