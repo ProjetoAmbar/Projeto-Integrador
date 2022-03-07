@@ -2,3 +2,18 @@
     background-color: #B3D8CB !important;
 }
 
+.myBox {
+    border: none;
+    padding: 5px;
+  
+    
+    height:1000px;
+    overflow: scroll;
+    }
+    
+    /* Scrollbar styles */
+    ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    }
+
