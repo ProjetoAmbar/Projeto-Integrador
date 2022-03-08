@@ -22,6 +22,7 @@
 - [x] <b>#09:</b> Criação do projeto em Angular
 - [x] <b>#10:</b> Segurança no Angular
 - [x] <b>#11:</b> Implementação de consumo HTTP - GET e POST
+- [ ] <b>#12:</b> Implementação de consumo HTTP - PUT e DELETE
   
 ## :busts_in_silhouette: Autores:
 
