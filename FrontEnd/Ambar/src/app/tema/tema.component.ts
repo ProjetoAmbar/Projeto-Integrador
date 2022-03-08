@@ -11,7 +11,7 @@ import { temaService } from '../service/tema-service';
 })
 export class TemaComponent implements OnInit {
 
-  tema: Temas = new Temas()
+  temas: Temas = new Temas()
   listaTemas: Temas[]
 
   constructor(private router: Router,
@@ -30,11 +30,11 @@ export class TemaComponent implements OnInit {
       this.listaTemas = resp
     })
   }
-  cadastrarTema(){this.httpService.postTema(this.tema).subscribe((resp: Temas)=>{
-    this.tema = resp
+  cadastrarTema(){this.httpService.postTema(this.temas).subscribe((resp: Temas)=>{
+    this.temas = resp
     alert('Tema cadastrado com sucesso!')
     this.findAllTemas()
-    this.tema = new Temas()
+    this.temas = new Temas()
   })}
 
   
