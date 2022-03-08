@@ -22,12 +22,12 @@ export class temaService {
     return this.http.get<Temas>(`https://projetoambar.herokuapp.com/temas/${id}`, this.token)
   }
 
-  postTema(tema: Temas): Observable<Temas>{
-    return this.http.post<Temas>('https://projetoambar.herokuapp.com/temas',tema, this.token)
+  postTema(temas: Temas): Observable<Temas>{
+    return this.http.post<Temas>('https://projetoambar.herokuapp.com/temas',temas, this.token)
   }
   
-  putTema(tema: Temas): Observable<Temas>{
-    return this.http.put<Temas>('https://projetoambar.herokuapp.com/temas', tema, this.token)
+  putTema(temas: Temas): Observable<Temas>{
+    return this.http.put<Temas>('https://projetoambar.herokuapp.com/temas', temas, this.token)
   }
 
   deleteTema(id: number){

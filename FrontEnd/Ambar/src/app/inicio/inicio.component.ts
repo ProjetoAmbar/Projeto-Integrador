@@ -15,7 +15,7 @@ import { temaService } from '../service/tema-service';
 })
 export class InicioComponent implements OnInit {
 
-  postagem: Postagens = new Postagens()
+  postagens: Postagens = new Postagens()
   tema: Temas = new Temas
   listaTemas: Temas[]
   listaPostagens: Postagens[]
@@ -59,14 +59,14 @@ export class InicioComponent implements OnInit {
 
   publicar(){
     this.tema.id = this.idTema
-    this.postagem.temas = this.tema
+    this.postagens.temas = this.tema
 
     this.user.id = this.idUser
-    this.postagem.usuarios = this.user 
-    this.postagemService.postPostagem(this.postagem).subscribe((resp: Postagens) => {
-      this.postagem = resp
+    this.postagens.usuarios = this.user 
+    this.postagemService.postPostagens(this.postagens).subscribe((resp: Postagens) => {
+      this.postagens = resp
       alert('Postagem realizada com sucesso!')
-      this.postagem = new Postagens()
+      this.postagens = new Postagens()
       this.getAllPostagens() })
   }
 

@@ -14,6 +14,10 @@ import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { ContatoComponent } from './contato/contato.component';
 import { TemaComponent } from './tema/tema.component';
+import { PostagemDeleteComponent } from './delete/postagens-delete/postagem-delete.component';
+import { TemasDeleteComponent } from './delete/temas-delete/temas-delete.component';
+import { PostagensEditComponent } from './edit/postagens-edit/postagens-edit.component';
+import { TemasEditComponent } from './edit/temas-edit/temas-edit.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,11 @@ import { TemaComponent } from './tema/tema.component';
     SobreNosComponent,
     InicioComponent,
     ContatoComponent,
-    TemaComponent
+    TemaComponent,
+    PostagemDeleteComponent,
+    TemasDeleteComponent,
+    PostagensEditComponent,
+    TemasEditComponent
   ],
   imports: [
     BrowserModule,
