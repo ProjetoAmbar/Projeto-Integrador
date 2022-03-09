@@ -1,10 +1,16 @@
 .f15{
     font-size: 25pt;
     font-weight: 900;
-    padding: 20px;
+    padding: 10px;
     margin: 0;
     display: inline;
 
+}
+
+.fa {
+  font-size: 20pt;
+  color: white;
+  padding: 0px;
 }
 
 .gradient{

@@ -1,6 +1,6 @@
-<nav class="navbar custom navbar-expand navbar-light gradient">
+<nav class="navbar custom navbar-expand navbar-light gradient d-flex align-items-center">
   <div class="col-md-2">
-    <a routerLink="/inicio" class="navbar-brand f15">
+    <a routerLink="/inicio" class="navbar-brand f15 d-flex align-items-center">
       <img src="https://imgur.com/bFlSEB8.jpg" alt="" width="60" height="60" class="d-inline-block align-text-center">
       AMBAR</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navPrincipal"
@@ -10,7 +10,7 @@
   </div>
   <div class="col-md-10">
     <div class="collapse navbar-collapse" id="navPrincipal">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mr-auto d-flex align-items-center pl-0">
         <li class="nav-item">
           <a routerLink="/inicio" class="nav-link text-dark">Início</a>
         </li>
@@ -20,7 +20,21 @@
         <li class="nav-item">
           <a routerLink="contato" class="nav-link text-dark">Contato</a>
         </li>
-      </ul>
+</ul>
+
+<ul class="navbar-nav">
+  <li class="nav-item d-flex align-items-center">
+    <p class="nav-link text-dark">Olá, {{nome}}</p>
+  <a [routerLink]="['/usuario-edit', id]">
+      <p class="nav-link text-dark mr-2"><i class="fa fa-pencil" aria-hidden="true"></i></p>
+  </a>
+  </li>
+  <li >
+        <a (click)="sair()" class="nav-link text-dark">Sair</a>
+
+    </li>
+
+</ul>
     </div>
     </div>
  

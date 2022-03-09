@@ -14,22 +14,22 @@ export class postagemService {
   token = {headers : new HttpHeaders().set('Authorization', environment.token)}
 
   getAllPostagens(): Observable<Postagens[]>{
-    return this.http.get<Postagens[]>('https://projetoambar.herokuapp.com/postagens', this.token)
+    return this.http.get<Postagens[]>('http://localhost:8080', this.token)
   }
 
   getByIdPostagens(id: number): Observable<Postagens>{
-    return this.http.get<Postagens>(`https://projetoambar.herokuapp.com/postagens/${id}`,this.token)
+    return this.http.get<Postagens>(`http://localhost:8080/postagens/${id}`,this.token)
   }
   postPostagens (postagens: Postagens): Observable<Postagens>{
-    return this.http.post<Postagens>('https://projetoambar.herokuapp.com/postagens',postagens,this.token)
+    return this.http.post<Postagens>('http://localhost:8080/postagens',postagens,this.token)
   }
 
   putPostagens(postagem: Postagens): Observable<Postagens>{
-    return this.http.put<Postagens>('https://projetoambar.herokuapp.com/postagens',postagem,this.token)
+    return this.http.put<Postagens>('http://localhost:8080/postagens',postagem,this.token)
   }
 
   deletePostagens(id: number){
-    return this.http.delete(`https://projetoambar.herokuapp.com/postagens/${id}`,this.token)
+    return this.http.delete(`http://localhost:8080/postagens/${id}`,this.token)
   } 
 
 }

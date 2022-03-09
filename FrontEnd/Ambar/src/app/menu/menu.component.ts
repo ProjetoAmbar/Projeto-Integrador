@@ -9,6 +9,9 @@ import { environment } from 'src/environments/environment.prod';
 })
 export class MenuComponent implements OnInit {
 
+  nome = environment.nome
+  id = environment.id
+
   constructor(
     private router: Router
   ) { }
@@ -20,7 +23,9 @@ export class MenuComponent implements OnInit {
 
   sair(){
     this.router.navigate(['/entrar'])
-   
-  } 
+    environment.token = ''
+    environment.nome = ''
+    environment.id = 0
+  }
 
 }
