@@ -15,19 +15,19 @@ export class temaService {
 
 
   getAllTema(): Observable<Temas[]>{
-    return this.http.get<Temas[]>('http://localhost:8080/temas',this.token)
+    return this.http.get<Temas[]>('https://projetoambar.herokuapp.com/temas',this.token)
   }
 
   getByIdTema(id: number): Observable<Temas>{
-    return this.http.get<Temas>(`http://localhost:8080/temas/${id}`, this.token)
+    return this.http.get<Temas>(`https://projetoambar.herokuapp.com/temas/${id}`, this.token)
   }
 
   postTema(temas: Temas): Observable<Temas>{
-    return this.http.post<Temas>('http://localhost:8080/temas',temas, this.token)
+    return this.http.post<Temas>('https://projetoambar.herokuapp.com/temas',temas, this.token)
   }
   
   putTema(temas: Temas): Observable<Temas>{
-    return this.http.put<Temas>('http://localhost:8080/temas', temas, this.token)
+    return this.http.put<Temas>('https://projetoambar.herokuapp.com/temas', temas, this.token)
   }
 
   deleteTema(id: number){
