@@ -16,16 +16,17 @@
 
     <div class="col-md-10">
      
-    <div class="card-group">
-      <div class="card text-center" *ngFor = 'let item of listaPostagens'>
-      <div class="card-body mr-4">
-        <h5 class="card- m-0">{{item.titulo}}</h5>
-        <small class="text-muted">Tema: {{item.temas.descricao}}</small>
-        <p class="card-text mt-3">{{item.post}}</p>
-        <p class="card-text"><small class="text-muted">{{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}</small></p>
-        <p class="card-text"><small class="text-muted">by: {{item.usuarios.nome}}</small></p>
+      <div class="card mt-3" *ngFor = 'let item of listaPostagens' style="width: 18rem;">
+        <img class="card-img-top" src="{{item.imagens_url}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card- m-0">{{item.titulo}}</h5>
+          <small class="text-muted">Tema: {{item.temas.descricao}}</small>
+          <p class="card-text mt-3">{{item.post}}</p>
+          <p class="card-text"><small class="text-muted">{{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}</small></p>
+          <p class="card-text"><small class="text-muted">by: {{item.usuarios.nome}}</small></p>
+        </div>
       </div>
-    </div></div></div>
+
   </div>
 
 <!-- Modal -->
@@ -48,9 +49,14 @@ aria-labelledby="TituloModalCentralizado" aria-hidden="true">
             </div>
 
             <div class="form-group">
-                <label for="titulo">Texto</label>
+                <label for="texto">Texto</label>
                 <textarea [(ngModel)] ='postagens.post' class="form-control" name="texto" id="texto" rows="3"></textarea>
             </div>
+
+            <div class="form-group">
+              <label for="imagens_url">URL da imagem</label>
+              <textarea [(ngModel)] ='postagens.imagens_url' class="form-control" name="URL da imagem" id="imagens_url"></textarea>
+          </div>
 
             <div class="form-group">
                 <label for="titulo">Escolha um tema ou <u class="mt-2 mb-2 text-primary click" data-dismiss="modal" routerLink="/temas">cadastre um novo</u>: </label>
