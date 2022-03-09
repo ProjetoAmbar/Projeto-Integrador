@@ -24,6 +24,16 @@ export class AuthService {
 
   }
 
+  atualizar(usuarios: Usuarios): Observable<Usuarios>{
+    return this.http.put<Usuarios>('https://projetoambar.herokuapp.com/usuarios/atualizar', usuarios)
+
+  }
+
+  getByIdUsuario(id: number): Observable<Usuarios>{
+    return this.http.get<Usuarios>(`https://projetoambar.herokuapp.com/usuarios/${id}`)
+
+  }
+
   logado(){
 
     let ok: boolean = false
