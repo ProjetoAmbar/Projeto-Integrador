@@ -3,16 +3,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
+  padding: 10px;
+  margin: 10px;
+  
 }
 
 .card-container {
-    margin: 250px 200px;
-    padding: 0;
     font-size: 16px;
-    width: 320px;
-    height: 400px;
+    width: 350px;
+    height: 310px;
     background: #fff;
     border-radius: 6px;
     box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .3);
@@ -27,8 +26,8 @@
 
 .card-container:hover .btn,
 .card-container:hover h4,
-.card-container:hover h3,
-.card-container:hover p {
+.card-container:hover h3
+{
     transition: .4s ease;
     color: #fff
 }
@@ -89,7 +88,7 @@
 
 .btn {
     background: none;
-    padding: 14px 30px;
+    padding: 14px 20px;
     color: #B3D8CB;
     font-size: 0.9rem;
     text-decoration: none;
@@ -106,14 +105,11 @@
 .grid{
     display: grid;
     grid-template-columns: 0fr 0fr 0fr;
-    height: 100vh;
-    width: 100vw;
-    
 }
 
 .margin {
     margin-top: 10px; 
-    margin-bottom: 40px; 
+    margin-bottom: 10px; 
     margin-right: 10px;
     margin-left: 10px;
 }
