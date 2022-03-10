@@ -17,8 +17,11 @@
         <br>
         <br>
         <div class="card-body ">
-          <button class="btn btn-outline-dark text-dark mr-2" data-toggle="modal" data-target="#novaPostagem">Criar um Post</button>
+          <button class="btn btn-outline-dark text-dark mr-2" data-toggle="modal" data-target="#novaPostagem">Criar Um Post</button>
         </div>
+        <div class="card-body mb-2">
+        <button class="btn btn-outline-dark text-dark mr-2"  routerLink="/postagens" >Minhas Postagens</button>
+      </div>
         <div class="card-body " style="padding: 4px; ">
           <br>
           <a routerLink="/sobre-nos" class="card-link font-text text-dark justify-content-center">Sobre Nós</a>
@@ -45,7 +48,7 @@
                 <img class="card-img-top" src="{{item.imagens_url}}" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title m-0">{{item.titulo}}</h5>
-                  <small class="text-muted"> Tema: {{item.temas.descricao}}</small>
+                  <small class="text-muted"> Tema: {{item.temas.tituloTema}}</small>
                   <p class="card-text mt-3">{{item.post}}</p>
                   <p class="card-text"><small class="text-muted">
                       {{item.data | date: 'dd/MM/yyyy'}} às {{item.data | date: 'HH:mm'}}
@@ -90,7 +93,7 @@
 
             <div class="form-group">
               <label for="imagens_url">URL da imagem</label>
-              <textarea [(ngModel)]='postagens.imagens_url' class="form-control" name="URL da imagem"
+              <textarea [(ngModel)]='postagens.imagens_url' class="form-control" name="URL da imagem" rows="1"
                 id="imagens_url"></textarea>
             </div>
 
