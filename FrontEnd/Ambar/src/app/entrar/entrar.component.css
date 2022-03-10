@@ -75,3 +75,7 @@ body {
     box-shadow: 3px 3px 1px 0px #00000050;
 
   }
+
+  button:hover{
+    background-color:rgb(206, 223, 206) !important;
+  }

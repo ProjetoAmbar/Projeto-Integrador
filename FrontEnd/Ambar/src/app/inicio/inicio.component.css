@@ -80,3 +80,7 @@
     .background{
       background-color: rgba(255, 255, 255, 0.685);
     }
+    
+    button:hover{
+      background-color:rgb(206, 223, 206) !important;
+    }
