@@ -22,3 +22,11 @@
 .pad{
   padding: 0px;
 }
+
+.botao-success:hover{
+  background-color:rgb(206, 223, 206) !important;
+}
+
+.botao-danger:hover{
+  background-color:rgb(238, 192, 192) !important;
+}
