@@ -1,41 +1,41 @@
-<div class="container mb-5 mt-5">
+<div class="container mb-4 mt-5">
 
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="text-center mt-1 mb-5">Atualizar meu Usuário</h1>
-      </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center mt-1 mb-3">Atualizar Meu Usuário</h1>
     </div>
-  
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-6">
-  
-        <div class="form-group">
-          <label for="nome">Nome</label>
-          <input [(ngModel)]='usuario.nome' class="form-control" type="text" name="nome" id="nome" placeholder="Seu nome"  >
-        </div>
-  
-        <div class="form-group">
-          <label for="usuario">Usuário</label>
-          <input [(ngModel)]='usuario.email' class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu usuário">
-        </div>
-  
-        <div class="form-group">
-          <label for="senha">Senha</label>
-          <input (input)='confirmSenha($event)' class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">
-        </div>
-  
-        <div class="form-group">
-          <label for="confirmSenha">Confirmar Senha</label>
-          <input [(ngModel)]='usuario.senha' class="form-control" type="password" name="confirmSenha" id="confirmSenha"
-            placeholder="Confirme sua senha">
-        </div>
-  
-        <div class="d-flex justify-content-center">
-          <button type="submit" class="btn btn-outline-dark text-dark mr-4 botao-danger" routerLink='/inicio'>Cancelar</button>
-          <button type="submit" class="btn btn-outline-dark text-dark botao-success" (click)='atualizar()' >Atualizar</button>
-        </div>
-  
-      </div>
-    </div>
-  
   </div>
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-6">
+
+      <div class="form-group">
+        <label class="label" for="nome">Nome</label>
+        <input [(ngModel)]='usuario.nome' class="form-control" type="text" name="nome" id="nome" placeholder="Seu nome"  >
+      </div>
+
+      <div class="form-group">
+        <label class="label" for="usuario">Usuário</label>
+        <input [(ngModel)]='usuario.email' class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu usuário">
+      </div>
+
+      <div class="form-group">
+        <label class="label" for="senha">Senha</label>
+        <input (input)='confirmSenha($event)' class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">
+      </div>
+
+      <div class="form-group">
+        <label class="label" for="confirmSenha">Confirmar Senha</label>
+        <input [(ngModel)]='usuario.senha' class="form-control" type="password" name="confirmSenha" id="confirmSenha"
+          placeholder="Confirme sua senha">
+      </div>
+
+      <div class="d-flex justify-content-center mt-3">
+        <button type="submit" class="btn btn-danger mr-4" routerLink='/inicio'>Cancelar</button>
+        <button type="submit" class="btn btn-primary" (click)='atualizar()' >Atualizar</button>
+      </div>
+
+    </div>
+  </div>
+
+</div>
