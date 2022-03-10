@@ -81,17 +81,17 @@
             <div class="form-group">
               <label for="titulo">Título</label>
               <input [(ngModel)]='postagens.titulo' type="text" class="form-control" id="titulo"
-                placeholder="Digite o título">
+                placeholder="Digite um título">
             </div>
 
             <div class="form-group">
               <label for="texto">Texto</label>
-              <textarea [(ngModel)]='postagens.post' class="form-control" name="texto" id="texto" rows="3"></textarea>
+              <textarea [(ngModel)]='postagens.post' class="form-control" name="texto" id="texto" placeholder="Digite um texto" rows="3"></textarea>
             </div>
 
             <div class="form-group">
               <label for="imagens_url">URL da imagem</label>
-              <textarea [(ngModel)]='postagens.imagens_url' class="form-control" name="URL da imagem" rows="1"
+              <textarea [(ngModel)]='postagens.imagens_url' class="form-control" name="URL da imagem" placeholder="Insira a URL da imagem" rows="1"
                 id="imagens_url"></textarea>
             </div>
 
