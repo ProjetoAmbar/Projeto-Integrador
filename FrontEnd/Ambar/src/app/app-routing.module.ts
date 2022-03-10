@@ -9,6 +9,7 @@ import { TemasEditComponent } from './edit/temas-edit/temas-edit.component';
 import { UsuarioEditComponent } from './edit/usuario-edit/usuario-edit.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { PostagensComponent } from './postagens/postagens.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { TemaComponent } from './tema/tema.component';
 
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path: 'temas', component: TemaComponent},
   {path: 'sobre-nos', component: SobreNosComponent},
   {path: 'contato', component: ContatoComponent},
+  {path: 'postagens', component: PostagensComponent},
 
   {path: 'temas-edit/:id', component: TemasEditComponent},
   {path: 'temas-delete/:id', component: TemasDeleteComponent},

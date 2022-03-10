@@ -1,0 +1,42 @@
+<div class="container-fluid">
+
+    <div class="row ">
+        <div class="col-md-12 pad gradient text-dark mt-5">
+
+            <h1 class='fs-54 text-center'>Minhas postagens</h1>
+            <h5 class='fs-18 text-center'>Veja aqui todos os seus posts: </h5>
+            <div class="row d-flex justify-content-center mt-4 mb-5">     
+    </div>
+</div>
+</div>
+
+<div class="container  ">
+    <div class="row mt-3">
+<div class="col-md-12">
+    <h2 class="text-center">Todos os seus posts</h2>
+</div>
+    </div>
+    <div class="row mt-3 mb-5 d-flex justify-content-center">
+        <div class="col-md-6">
+            <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Título</th>
+                    <th scope="col" class="d-flex  text-end">Modificações</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of usuario.postagens">
+                    <th>{{item.id}}</th>
+                    <td>{{item.titulo}}</td>
+                    <td class="d-flex justify-content-end">
+                    <button class="btn btn-outline-dark text-dark botao-success mr-3" [routerLink]="['/postagens-edit',item.id]">Editar</button>
+                    <button class="btn btn-outline-dark text-dark mr-4 botao-danger ms-3" [routerLink]="['/postagens-delete',item.id]">Apagar</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
