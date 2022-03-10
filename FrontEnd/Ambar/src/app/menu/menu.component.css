@@ -1,44 +1,64 @@
 .f15{
-    font-size: 25pt;
-    font-weight: 900;
-    padding: 10px;
-    margin: 0;
-    display: inline;
+  font-size: 25pt;
+  font-weight: 900;
+  padding: 10px;
+  margin: 0;
+  display: inline;
 
+}
+
+.f15:hover{
+color: white;
 }
 
 .fa {
-  font-size: 20pt;
-  color: white;
-  padding: 0px;
+font-size: 15pt;
+color: black;
+padding: 0px;
 }
 
+.fa:hover{
+color: white;
+-webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  cursor: pointer;
+}
+
+
 .gradient{
-    background: linear-gradient(45deg, #4fd370, #a3d0dd, #ebdaa3, #f38c06);
-    background-size: 300% 300%;
-    animation: colors 20s ease infinite;
+  background: linear-gradient(45deg, #4fd370, #a3d0dd, #ebdaa3, #f38c06);
+  background-size: 300% 300%;
+  animation: colors 20s ease infinite;
 
-  }
-  @keyframes colors {
-    0% {
-      background-position: 0% 50%;
-    }
-
-    50% {
-      background-position: 100% 50%;
-    }
-
-    100%{
-      background-position: 0% 50%;
-    }
+}
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
   }
 
-  button:hover{
-    background-color:rgb(206, 223, 206) !important;
+  50% {
+    background-position: 100% 50%;
   }
 
-  .font-text {
-    font-weight: bold;
+  100%{
+    background-position: 0% 50%;
   }
+}
 
- 
+button:hover{
+  background-color:rgb(206, 223, 206) !important;
+}
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  color: #01d28e; }
+  a:hover, a:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+

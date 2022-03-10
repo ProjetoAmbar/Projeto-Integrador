@@ -1,82 +1,78 @@
 .bg-color {
-    background-color: #B3D8CB !important;
-}
-
-.font-text {
-  font-weight: bold;
+  background-color: #B3D8CB !important;
 }
 
 .myBox {
-    border: none;
-    padding: 5px;
+  border: none;
+  padding: 5px;
+
   
-    
-    height:1000px;
-    overflow: scroll;
+  height:1000px;
+  overflow: scroll;
+  }
+  
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  }
+
+  .grid-container {
+      display: inline-grid;
+      grid-template-columns: auto auto auto auto;
+      grid-auto-rows: 1429.63px;
+      justify-content: center;
+      
+      /*background-color: #2196F3;*/
+     /* padding: 10px;*/
     }
     
-    /* Scrollbar styles */
-    ::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.685);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+    
+    
     }
 
-    .grid-container {
-        display: inline-grid;
-        grid-template-columns: auto auto auto auto;
-        grid-auto-rows: 1429.63px;
-        justify-content: center;
-        
-        /*background-color: #2196F3;*/
-       /* padding: 10px;*/
-      }
+    .card {
+      padding: 30px;
+      border-radius: 4%;
+      box-shadow: 3px 3px 1px 0px #00000050;
+    }
+
+    #myDIV {
+      border: 1px solid white;
       
-      .grid-item {
-        background-color: rgba(255, 255, 255, 0.685);
-        border: 1px solid rgba(0, 0, 0, 0.8);
-      
-      
-      }
+      width: 300px;
+      height: 700px;
+      overflow: auto;
+    }
 
-      .card {
-        padding: 30px;
-        border-radius: 4%;
-        box-shadow: 3px 3px 1px 0px #00000050;
+    .gradient{
+      background: linear-gradient(45deg, #4fd370, #a3d0dd, #ebdaa3, #f38c06);
+      background-size: 300% 300%;
+      animation: colors 20s ease infinite;
+  
+    }
+    @keyframes colors {
+      0% {
+        background-position: 0% 50%;
       }
-
-      #myDIV {
-        border: 1px solid white;
-        
-        width: 300px;
-        height: 700px;
-        overflow: auto;
+  
+      50% {
+        background-position: 100% 50%;
       }
-
-      .gradient{
-        background: linear-gradient(45deg, #4fd370, #a3d0dd, #ebdaa3, #f38c06);
-        background-size: 300% 300%;
-        animation: colors 20s ease infinite;
-    
+  
+      100%{
+        background-position: 0% 50%;
       }
-      @keyframes colors {
-        0% {
-          background-position: 0% 50%;
-        }
-    
-        50% {
-          background-position: 100% 50%;
-        }
-    
-        100%{
-          background-position: 0% 50%;
-        }
-      }
+    }
 
 
-      .alinha{
-        align-items: flex-start
-      }
+    .alinha{
+      align-items: flex-start
+    }
 
-      .background{
-        background-color: rgba(255, 255, 255, 0.685);
-      }
+    .background{
+      background-color: rgba(255, 255, 255, 0.685);
+    }
