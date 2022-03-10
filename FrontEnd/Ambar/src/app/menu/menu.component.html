@@ -12,19 +12,19 @@
     <div class="collapse navbar-collapse" id="navPrincipal">
       <ul class="navbar-nav mr-auto d-flex align-items-center pl-0">
         <div class="card-body ">
-          <button class="btn btn-outline-dark text-dark mr-2" data-toggle="modal" data-target="#novaPostagem">Criar um Post</button>
+          <button class="btn btn-outline-dark text-dark font-text mr-2" data-toggle="modal" data-target="#novaPostagem">Criar um Post</button>
         </div>
       </ul>
 
       <ul class="navbar-nav">
         <li class="nav-item d-flex align-items-center">
-          <p class="nav-link text-dark">Olá, {{nome}}</p>
+          <p class="nav-link text-dark font-text">Olá, {{nome}}</p>
           <a [routerLink]="['/usuario-edit', id]">
             <p class="nav-link text-dark mr-2"><i class="fa fa-pencil" aria-hidden="true"></i></p>
           </a>
         </li>
         <li>
-          <a (click)="sair()" class="nav-link text-dark">Sair</a>
+          <a (click)="sair()" class="nav-link text-dark font-text">Sair</a>
 
         </li>
 
