@@ -28,7 +28,7 @@
       }
       
       .grid-item {
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(255, 255, 255, 0.685);
         border: 1px solid rgba(0, 0, 0, 0.8);
       
       
@@ -41,10 +41,10 @@
       }
 
       #myDIV {
-        border: 1px solid black;
+        border: 1px solid white;
         
         width: 300px;
-        height: 800px;
+        height: 700px;
         overflow: auto;
       }
 
@@ -66,4 +66,13 @@
         100%{
           background-position: 0% 50%;
         }
+      }
+
+
+      .alinha{
+        align-items: flex-start
+      }
+
+      .background{
+        background-color: rgba(255, 255, 255, 0.685);
       }
