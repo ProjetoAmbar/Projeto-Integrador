@@ -49,7 +49,7 @@
                 <tbody>
                   <tr *ngFor="let item of listaTemas">
                     <th>{{item.id}}</th>
-                    <td>{{item.descricao}}</td>
+                    <td>{{item.tituloTema}}</td>
                     <td class="d-flex justify-content-end">
                     <button class="btn btn-outline-dark text-dark botao-success mr-3" [routerLink]="['/temas-edit',item.id]">Editar</button>
                     <button class="btn btn-outline-dark text-dark mr-4 botao-danger ms-3" [routerLink]="['/temas-delete',item.id]">Apagar</button>
