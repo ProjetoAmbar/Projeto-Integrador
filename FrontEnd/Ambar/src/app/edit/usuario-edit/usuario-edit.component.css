@@ -1,3 +1,11 @@
+.botao-success:hover{
+  background-color:rgb(206, 223, 206) !important;
+}
+
+.botao-danger:hover{
+  background-color:rgb(238, 192, 192) !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }

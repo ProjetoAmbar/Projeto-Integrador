@@ -2,6 +2,10 @@
   background-color: #B3D8CB !important;
 }
 
+.font-text {
+  font-weight: bold;
+}
+
 .myBox {
   border: none;
   padding: 5px;
