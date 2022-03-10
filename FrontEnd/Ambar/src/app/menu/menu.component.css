@@ -7,11 +7,24 @@
 
 }
 
-.fa {
-  font-size: 20pt;
+.f15:hover{
   color: white;
+}
+
+.fa {
+  font-size: 15pt;
+  color: black;
   padding: 0px;
 }
+
+.fa:hover{
+  color: white;
+  -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
 
 .gradient{
     background: linear-gradient(45deg, #4fd370, #a3d0dd, #ebdaa3, #f38c06);
@@ -36,5 +49,17 @@
   button:hover{
     background-color:rgb(206, 223, 206) !important;
   }
+
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: #01d28e; }
+    a:hover, a:focus {
+      text-decoration: none !important;
+      outline: none !important;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+  
 
  

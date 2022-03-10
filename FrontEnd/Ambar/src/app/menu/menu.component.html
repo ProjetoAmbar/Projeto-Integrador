@@ -1,5 +1,5 @@
 <nav class="navbar custom navbar-expand navbar-light gradient d-flex align-items-center" style="padding-left: 0px; padding-right: 0px;">
-  <div class="col-md-2">
+  <div class="d-inline-flex p-2 bd-highlight">
     <a routerLink="/inicio" class="navbar-brand f15 d-flex align-items-center justify-content-center" style="padding: 0px;">
       <img src="https://imgur.com/bFlSEB8.jpg" alt="" width="60" height="60" class="d-inline-block align-text-center">
       AMBAR</a>
@@ -8,28 +8,31 @@
       <span class="navbar-toggler-icon"></span>
     </button>
   </div>
-  <div class="col-md-10">
-    <div class="collapse navbar-collapse" id="navPrincipal">
-      <ul class="navbar-nav mr-auto d-flex align-items-center pl-0">
-        <div class="card-body ">
-          <button class="btn btn-outline-dark text-dark mr-2" data-toggle="modal" data-target="#novaPostagem">Criar um Post</button>
-        </div>
-      </ul>
+  
+    <div class="ml-auto p-2 mr-3">
+      
+        
 
-      <ul class="navbar-nav">
-        <li class="nav-item d-flex align-items-center">
-          <p class="nav-link text-dark">Olá, {{nome}}</p>
+      <div><ul class="navbar-nav mr-auto d-flex align-items-center pl-0">
+        <li class="nav-item d-flex align-items-center mr-3" >
+          <a class="mr-2 text-dark">Olá, <strong>{{nome}}</strong></a>
           <a [routerLink]="['/usuario-edit', id]">
-            <p class="nav-link text-dark mr-2"><i class="fa fa-pencil" aria-hidden="true"></i></p>
+            <a><i class="fa fa-pencil" aria-hidden="true"></i></a>
           </a>
+          
         </li>
-        <li>
-          <a (click)="sair()" class="nav-link text-dark">Sair</a>
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link text-dark">Sair</a>
+      
+            <a (click)="sair()"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+          
 
         </li>
 
       </ul>
     </div>
+    
   </div>
+  
 
 </nav>
