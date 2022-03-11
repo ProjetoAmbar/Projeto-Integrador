@@ -31,7 +31,7 @@
               <label for="texto">Escolha um tema ou <a data-dismiss="modal" routerLink="/temas">cadastre um novo</a>: </label>
              <select name="tema" id="tema" class="form-control" [(ngModel)]="idTemas" (change)="findByIdTema()">
                  <option *ngFor="let item of listaTemas" value="{{item.id}}">
-                   {{item.descricao}}
+                   {{item.tituloTema}}
                   </option>
              </select>
            </div>
