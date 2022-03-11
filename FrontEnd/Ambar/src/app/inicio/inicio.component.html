@@ -44,7 +44,7 @@
 
 
             <div class="card-columns">
-              <div class="card bg-color text-center" *ngFor='let item of listaPostagens'>
+              <div class="card bg-color text-center" *ngFor='let item of listaPostagens | orderBy : key : reverse'>
                 <img class="card-img-top" src="{{item.imagens_url}}" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title m-0">{{item.titulo}}</h5>
@@ -81,17 +81,17 @@
             <div class="form-group">
               <label for="titulo">Título</label>
               <input [(ngModel)]='postagens.titulo' type="text" class="form-control" id="titulo"
-                placeholder="Digite o título">
+                placeholder="Digite um título">
             </div>
 
             <div class="form-group">
               <label for="texto">Texto</label>
-              <textarea [(ngModel)]='postagens.post' class="form-control" name="texto" id="texto" rows="3"></textarea>
+              <textarea [(ngModel)]='postagens.post' class="form-control" name="texto" id="texto" placeholder="Digite um texto" rows="3"></textarea>
             </div>
 
             <div class="form-group">
               <label for="imagens_url">URL da imagem</label>
-              <textarea [(ngModel)]='postagens.imagens_url' class="form-control" name="URL da imagem" rows="1"
+              <textarea [(ngModel)]='postagens.imagens_url' class="form-control" name="URL da imagem" placeholder="Insira a URL da imagem" rows="1"
                 id="imagens_url"></textarea>
             </div>
 
@@ -105,7 +105,7 @@
           </div>
 
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-secondary btn-button" data-dismiss="modal">Cancelar</button>
             <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="publicar()">Publicar</button>
           </div>
         </div>

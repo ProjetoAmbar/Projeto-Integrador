@@ -20,6 +20,7 @@ import { PostagensEditComponent } from './edit/postagens-edit/postagens-edit.com
 import { TemasEditComponent } from './edit/temas-edit/temas-edit.component';
 import { UsuarioEditComponent } from './edit/usuario-edit/usuario-edit.component';
 import { PostagensComponent } from './postagens/postagens.component';
+import { OrderModule } from 'ngx-order-pipe';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { PostagensComponent } from './postagens/postagens.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    OrderModule
   ],
   providers: [{
     provide: LocationStrategy,
