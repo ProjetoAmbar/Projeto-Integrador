@@ -44,7 +44,7 @@
 
 
             <div class="card-columns">
-              <div class="card bg-color text-center" *ngFor='let item of listaPostagens'>
+              <div class="card bg-color text-center" *ngFor='let item of listaPostagens | orderBy : key : reverse'>
                 <img class="card-img-top" src="{{item.imagens_url}}" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title m-0">{{item.titulo}}</h5>
